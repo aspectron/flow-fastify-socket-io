@@ -1,0 +1,37 @@
+{
+  "name": "@aspectron/flow-fastify-socket-io",
+  "version": "0.0.1",
+  "description": "flow-fastify-socket-io",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspectron/flow-fastify-socket-io"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "*",
+    "fastify-plugin": "*"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-google": "*",
+    "jsdoc": "*",
+    "flow-jsdoc-template": "git+https://github.com/aspectron/flow-jsdoc-template"
+  },
+  "scripts": {
+    "docs": "node_modules/.bin/jsdoc --configure .jsdoc.js --verbose"
+  },
+  "author": {
+    "name": "ASPECTRON Inc.",
+    "email": "info@aspectron.com",
+    "url": "https://aspectron.com"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "LICENSE",
+    ".jsdoc.js"
+  ]
+}
